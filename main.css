@@ -1,3 +1,217 @@
 body{
-    background-color: green;
+    background-image: url(background.jpg);
+    margin-top: 80px;
 }
+h1 {
+    text-align: center;
+}
+.dealer:hover, .suits:hover, .stacks:hover {
+    background-color: rgb(4, 152, 76);
+}
+img.redHover:hover, .A:hover, .B:hover, .C:hover, .D:hover, .E:hover, .F:hover, .G:hover{
+    opacity:0.8;
+}
+img {
+    width: 80px;
+    height: 120px;
+    border-radius: 4.5px;
+}
+.top, .bottom{
+    width: 100%;
+}
+.header {
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+}
+/*RED CARD*/
+.dealer{
+    border: 1px solid white;
+    width: 80px;
+    height: 120px;
+    float: left;
+    margin-left:20px;
+    border-radius: 5px;
+}
+#redCard {
+    margin-left: 195px;
+    border-radius: 5px;
+}
+/*GOLD CARD*/
+.suits{
+    border: 1px solid gold;
+    width: 80px;
+    height: 120px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.suits {
+    width: 80px;
+    height: 120px;
+}
+#goldCard {
+    margin-right: 275px;
+
+}
+/*WHITE CARDS*/
+.stacks{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 80px;
+    height: 120px;
+    float: left;
+    margin-left: 20px;
+}
+#whiteCard {
+    margin-left:295px;
+}
+/*Column G*/
+.G {
+    position: absolute;
+    left:916px;
+}
+#G1 {
+    top:221px; 
+}
+#G2 {
+    top:241px;
+}
+#G3 {
+    top:261px;
+}
+#G4 {
+    top:281px;
+}
+#G5 {
+    top:301px;
+}
+#G6 {
+    top:321px;
+}
+#G7 {
+    top:341px;
+}
+/*Column F*/
+.F {
+    position:absolute;
+    left:814px;
+}
+#F1 {
+    top:221px; 
+}
+#F2 {
+    top:241px;
+}
+#F3 {
+    top:261px;
+}
+#F4 {
+    top:281px;
+}
+#F5{
+    top:301px;
+}
+#F6 {
+    top:321px;
+}
+/*Column E*/
+.E {
+    position:absolute;
+    left:712px;
+}
+#E1 {
+    top:221px;
+}
+#E2 {
+    top:241px;
+}
+#E3 {
+    top:261px;
+}
+#E4 {
+    top:281px;
+}
+#E5 {
+    top:301px;
+}
+/*Column D*/
+.D {
+    position:absolute;
+    left: 610px;
+}
+#D1 {
+    top:221px;
+}
+#D2 {
+    top:241px;
+}
+#D3 {
+    top:261px;
+}
+#D4 {
+    top:281px;
+}
+/*Column C*/
+.C {
+    position: absolute;
+    left: 508px;
+}
+#C1 {
+    top:221px;
+}
+#C2 {
+    top:241px;
+}
+#C3 {
+    top:261px;
+}
+/*Column B*/
+.B {
+    position: absolute;
+    left: 406px;
+}
+#B1 {
+    top:221px;
+}
+#B2 {
+    top:241px;
+}
+/*Column A*/
+.A {
+    position: absolute;
+    left: 304px;
+}
+#A1 {
+    top:221px;
+}
+/*Foot Menu*/
+.footer {
+    position: fixed;
+    bottom:8%;
+    padding-left: 22%;
+}
+.button {
+   float:left;
+
+}
+.button {
+    background-color: black;
+    color:white;
+    opacity: 0.75;
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin:0px 15px;
+}
+.button:hover {
+    border: 1px solid gold;
+}
+.counts {
+    color:white;
+    float:left;
+    padding: 0px 15px;
+    margin:0px 15px;
+}
+
+
+
